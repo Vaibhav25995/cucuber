@@ -23,5 +23,26 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="F:/Testing/Suresh/Software/Ephoton/2020JarFiles/selenium-api-4.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/.m2/repository/io/cucumber/cucumber-java/7.4.0/cucumber-java-7.4.0.jar" sourcepath="C:/Users/HP/.m2/repository/io/cucumber/cucumber-java/7.4.0/cucumber-java-7.4.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.cucumber"/>
+			<attribute name="maven.artifactId" value="cucumber-java"/>
+			<attribute name="maven.version" value="7.4.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HP/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" sourcepath="C:/Users/HP/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.google.code.findbugs"/>
+			<attribute name="maven.artifactId" value="jsr305"/>
+			<attribute name="maven.version" value="3.0.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Testing/Suresh/Software/Ephoton/2020JarFiles/lib/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="F:/Testing/Suresh/Software/Ephoton/2020JarFiles/selenium-remote-driver-4.2.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -2,6 +2,8 @@ package pageObject;
 
 import org.openqa.selenium.WebDriver;
 
+import utlis.TestBase;
+
 public class PageObjectManager {
 
 	public LandingPage landing;

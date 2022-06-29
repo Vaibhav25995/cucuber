@@ -12,10 +12,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
 import pageObject.LandingPage;
 import utlis.TestContextSetup;
 
@@ -33,7 +31,7 @@ public class LandingPageStepDefination {
     
 	@Given("^User is on GreenCart Landing Page$")
 	public void user_is_on_GreenCart_Landing_Page() throws Throwable {
-		
+		Assert.assertTrue(testContextSetup.landingPageProduct.contains("GreenKart"));
 		
 				
 	   	}
